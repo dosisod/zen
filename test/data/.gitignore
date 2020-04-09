@@ -1,0 +1,3 @@
+# this file only exists to ensure that the `data/` folder is available to CI
+
+!.gitignore
