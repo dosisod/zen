@@ -1,5 +1,7 @@
 # zen
 
+![](https://github.com/dosisod/zen/workflows/tests/badge.svg)
+
 A zen commandline game in python
 
 ## Installing and Running
