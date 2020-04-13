@@ -6,10 +6,10 @@ BrailleArray=Tuple[
     Tuple[int, int]
 ]
 
-"""
-Convert a 2x3 braille array into an actual braille character
-"""
 def _render_single(braille: BrailleArray) -> str:
+    """
+    Convert a 2x3 braille array into an actual braille character
+    """
     code=0
 
     for i in range(6):
@@ -23,10 +23,10 @@ BrailleArrayN=Tuple[
     Tuple[int, ...]
 ]
 
-"""
-Convert 3 rows of N length arrays into a braille string
-"""
 def render_field(braille_arr: BrailleArrayN) -> str:
+    """
+    Convert 3 rows of N length arrays into a braille string
+    """
     def chunk(arr: Tuple[int, ...]) -> List[Tuple[int, int]]:
         pairs: List[Tuple[int, int]]=[]
 
